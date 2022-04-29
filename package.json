@@ -1,0 +1,45 @@
+{
+  "name": "materio-vuetify-nuxtjs-admin-template-free",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:js && npm run lint:prettier",
+    "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix"
+  },
+  "dependencies": {
+    "@mdi/js": "^6.6.96",
+    "@nuxtjs/axios": "^5.13.6",
+    "@vue/composition-api": "^1.4.9",
+    "@vuetify/cli-plugin-utils": "^0.0.10",
+    "core-js": "^3.19.3",
+    "fibers": "^5.0.1",
+    "node-sass": "^6.0.1",
+    "nuxt": "^2.15.8",
+    "sass": "^1.49.10",
+    "sass-loader": "^10.2.1",
+    "vue": "^2.6.14",
+    "vue-apexcharts": "^1.6.2",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify": "^2.6.4",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.16.3",
+    "@mdi/font": "^6.6.96",
+    "@nuxtjs/eslint-config": "^8.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^3.1.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "prettier": "^2.5.1"
+  }
+}
